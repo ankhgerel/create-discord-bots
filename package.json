@@ -1,37 +1,38 @@
 {
-  "name": "create-discord-bots",
-  "version": "0.0.1",
-  "description": "A Simple CLI to Discord Bot Template",
-  "main": "index.js",
-  "preferGlobal": true,
-  "bin": {
-    "create-discord-bots": ""
-  },
-  "author": "KimbabKR",
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  },
-  "dependencies": {
-  },
-  "directories": {
-    "test": "echo Hello Hell"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KimbabKR/create-discord-bots.git"
-  },
-  "keywords": [
-    "cdb",
-    "create-discord-app",
-    "discord.js",
-    "discord",
-    "bot",
-    "npm",
-    "generator"
-  ],
-  "bugs": {
-    "url": "https://github.com/KimbabKR/create-discord-bots/issues"
-  },
-  "homepage": "https://discord.gg/KbWvaNU"
+	"name": "create-discord-bots",
+	"version": "0.0.1",
+	"description": "A Simple CLI to Discord Bot Template",
+	"main": "index.js",
+	"preferGlobal": true,
+	"bin": {
+		"create-discord-bots": "src/index.js",
+		"cdb": "src/index.js"
+	},
+	"author": "KimbabKR",
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	},
+	"dependencies": {
+		"fs-extra": "^9.1.0",
+		"prompts": "^2.4.1",
+		"validate-npm-package-name": "^3.0.0"
+	},
+	"directories": {
+		"test": "echo Hello Hell"
+	},
+	"repository": "https://github.com/KimbabKR/create-discord-bots",
+	"keywords": [
+		"cdb",
+		"create-discord-app",
+		"discord.js",
+		"discord",
+		"bot",
+		"npm",
+		"generator"
+	],
+	"bugs": {
+		"url": "https://github.com/KimbabKR/create-discord-bots/issues"
+	},
+	"homepage": "https://discord.gg/KbWvaNU"
 }
