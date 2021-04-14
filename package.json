@@ -5,8 +5,8 @@
 	"main": "index.js",
 	"preferGlobal": true,
 	"bin": {
-		"create-discord-bots": "src/index.js",
-		"cdb": "src/index.js"
+		"create-discord-bots": "index.js",
+		"cdb": "index.js"
 	},
 	"author": "KimbabKR",
 	"license": "MIT",
