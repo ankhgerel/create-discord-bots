@@ -1,6 +1,4 @@
 # Welcome to Create Discord Bots 👋
-![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
-[![License: Apache--2.0 License](https://img.shields.io/badge/License-Apache--2.0 License-yellow.svg)](#)
 
 > A Simple CLI to Discord Bot Template
 
