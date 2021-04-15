@@ -1,6 +1,6 @@
 {
 	"name": "create-discord-bots",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "A Simple CLI to Discord Bot Template",
 	"main": "index.js",
 	"preferGlobal": true,
@@ -34,6 +34,9 @@
 	],
 	"bugs": {
 		"url": "https://github.com/KimbabKR/create-discord-bots/issues"
+	},
+	"publishConfig": {
+	  "registry":"https://registry.npmjs.org/"
 	},
 	"homepage": "https://discord.gg/KbWvaNU"
 }
