@@ -1,6 +1,6 @@
 {
 	"name": "create-discord-bots",
-	"version": "0.0.3",
+	"version": "0.1.0",
 	"description": "A Simple CLI to Discord Bot Template",
 	"main": "index.js",
 	"preferGlobal": true,
