@@ -25,8 +25,9 @@ npx create-discord-bots
 
 * Website: https://kimbabkr.xyz
 * Github: [@KimbabKR](https://github.com/KimbabKR)
+* Discord : [Team Kimbab](https://discord.gg/KbWvaNU)
 
-## 🤝 Contributing(도움주신 분들)
+## 🤝 Contributing(도움 드리기)
 
 Contributions, issues and feature requests are welcome!
 
@@ -46,7 +47,7 @@ Give a ⭐️ if this project helped you!
 | NAME                                                          | USED IN                                                                                                                                                                                                                                                          | Support Server                                    |
 | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | [IntBOT](https://github.com/team-int/intbot)       |  [Package/stable](https://github.com/KimbabKR/create-discord-bots/tree/master/package/stable) | [Discord](https://discord.gg/nKaM6RrN92)                               |
-| 
+
 
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKimbabKR%2Fcreate-discord-bots.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKimbabKR%2Fcreate-discord-bots?ref=badge_large)
