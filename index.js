@@ -29,14 +29,7 @@ const getApplicationId = (token) => {
 	}
 };
 
-const { type } = prompts([
-				{
-					type: 'text',
-					name: 'type',
-					initial: 'TYPE',
-					message: 'Application types? (Stable)',
-				},
-			]);
+
 prompts([
 	{
 		type: 'text',
@@ -81,14 +74,6 @@ prompts([
 			];
 		} else {
 			/** @type {{ token: string }} */
-			const { type } = prompts([
-				{
-					type: 'text',
-					name: 'type',
-					initial: 'TYPE',
-					message: 'Application types? (Stable)',
-				},
-			]);
 			const { token } = await prompts([
 				{
 					type: 'password',
@@ -127,7 +112,7 @@ prompts([
 				{
 					message: 'Writing .env...',
 					action: () =>
-						fs.writeFileSync(path.join(dir, '.env'), `DISCORD_BOT_TOKEN=${token}`),
+						fs.writeFileSync(path.join(dir, '.env'), `TOKEN=${token}`),
 					ignoreDry: false,
 				},
 				{

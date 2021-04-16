@@ -1,31 +1,32 @@
-# Welcome to Create Discord Bots 👋
+# Create Discord Bots 👋
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKimbabKR%2Fcreate-discord-bots.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKimbabKR%2Fcreate-discord-bots?ref=badge_shield)
-
+[![Discord](https://discord.com/api/guilds/740794177255768136/embed.png)](https://discord.gg/KbWvaNU)
 
 > A Simple CLI to Discord Bot Template
+> CLI 를 이용한 디스코드 봇 템플릿
 
-### 🏠 [Homepage](https://discord.gg/KbWvaNU)
+### 🏠 [지원서버(Support Server)](https://discord.gg/KbWvaNU)
 
-## Install
+## Install(설치하기)
 
 ```sh
-yarn install create-discord-bots -g
+yarn add create-discord-bots -g
 ```
 
-## Usage
+## Usage(사용방법)
 
 ```sh
 npx create-discord-bots
 ```
 
-## Author
+## Author(조직)
 
 👤 **KimbabKR**
 
 * Website: https://kimbabkr.xyz
 * Github: [@KimbabKR](https://github.com/KimbabKR)
 
-## 🤝 Contributing
+## 🤝 Contributing(도움주신 분들)
 
 Contributions, issues and feature requests are welcome!
 
