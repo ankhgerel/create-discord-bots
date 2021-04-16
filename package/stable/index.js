@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const fs = require('fs');
 const ascii = require('ascii-table');
+const table = new ascii().setHeading('Command', 'Load Status');
 require('dotenv').config();
 
 client.on("ready", () => {
