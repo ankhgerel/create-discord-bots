@@ -97,6 +97,7 @@ prompts([
 							if (!update) {
 								console.log();
 								throw '취소됨. 시스템 종료중';
+								process.exit(403)
 							}
 
 							steps = [
@@ -190,7 +191,7 @@ prompts([
 
 						console.log();
 						console.log(`완료되었습니다!\n\n이제 봇을 정상적으로 가동이 가능합니다.\n아래 명령어를 입력해 봇을 가동해보세요!\n\t$ cd ${name}/\n\t$ npm start`);
-						process.exit(0);
+						process.exit(200)
 					})
 					.catch(console.error);
 			});
@@ -253,7 +254,8 @@ prompts([
 
 							if (!update) {
 								console.log();
-								throw 'Quitting...';
+								throw 'Quitting...'
+								process.exit(403);
 							}
 
 							steps = [
@@ -347,7 +349,7 @@ prompts([
 
 						console.log();
 						console.log(`Done!\n\nStart by running:\n\t$ cd ${name}/\n\t$ npm start`);
-						process.exit(0);
+						process.exit(200)
 					})
 					.catch(console.error);
 			});
